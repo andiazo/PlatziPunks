@@ -4,7 +4,8 @@ const deploy = async () => {
 
     console.log("Deploying contract with the account:", deployer.address);
 
-    const deployed = await PlatziPunks.deploy();
+    const maxSupply = 10000
+    const deployed = await PlatziPunks.deploy(maxSupply);
 
     console.log("Contract is deployed at:", deployed.address)
 };
