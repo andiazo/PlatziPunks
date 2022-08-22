@@ -14,3 +14,4 @@ npx hardhat run scripts/deploy.js
 
 Contract is deployed at: 0xb27d7f8e54218E1268BB52A3006B120B7f215715
 Network: rinkeby
+    
